@@ -5,8 +5,8 @@ import Episodio from '../../components/Episodio';
 const PostEpisodios = () => {
 
     return (
-        <>
-            <main className={style.containerEpisodios}>
+        <main className={style.container}>
+            <div className={style.containerEpisodios}>
                 <h1 className={style.episodios}> 1ª Temporada-Episódios</h1>
                 <p className={style.descricao}> A 1ª temporada de "The Winchesters" é composta de 13 episódios lançados semanalmente.</p>
                 {episodios.map((episodio) => (
@@ -14,8 +14,8 @@ const PostEpisodios = () => {
                         <Episodio episodio={episodio} />
                     </li>
                 ))}
-            </main>
-        </>
+            </div>
+        </main>
 
 
     );

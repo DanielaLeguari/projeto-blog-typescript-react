@@ -1,11 +1,14 @@
+.container {
+    background: linear-gradient(#1f0b03, rgb(241, 231, 220));
+}
+
 .containerEpisodios {
     margin: 0 auto;
     width: 90%;
 }
 
-
 .episodios {
-    color: var(--marrom-escuro);
+    color: var(--cor-texto-banner);
     font-style: italic;
     font-weight: bold;
 }
@@ -15,11 +18,12 @@
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 18px;
+    font-size: 20px;
+    color: var(--cor-texto-banner);
 }
 
 .lista {
-    background-color: rgb(241, 231, 220);
+    background: rgb(241, 231, 220);
     padding: 1rem;
     margin: 1rem;
     border-radius: 10px;
