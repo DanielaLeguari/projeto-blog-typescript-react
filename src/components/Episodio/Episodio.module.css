@@ -2,6 +2,7 @@
     margin: 0 auto;
     display: flex;
     margin-top: 0.5rem;
+    font-family: var(--fonte-principal);
 }
 
 .detalhes {

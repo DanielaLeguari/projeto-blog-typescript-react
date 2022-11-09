@@ -1,9 +1,10 @@
 .banner {
-    background: linear-gradient(#1f0b03,#0e0401,#1f0b03 );
+    background: linear-gradient(var(--banner-cor-media),var(--banner-cor-escura),var(--banner-cor-media));
     display: flex;
     text-align: center;
     align-items: center;
     min-height: 350px;
+    font-family: var(--fonte-principal);
 }
 
 .informacoes {
@@ -23,6 +24,7 @@
     padding: 0.5rem;
     line-height: 2.5rem;
     font-weight: bold;
+    font-size: 3rem;
     width: 30%;
 }
 
@@ -31,6 +33,7 @@
     padding: 2rem;
     text-align: justify;
     width: 30%;
+    font-size: 1.3rem;
 }
 
 .bannerImg {

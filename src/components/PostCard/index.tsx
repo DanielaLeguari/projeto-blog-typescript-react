@@ -8,11 +8,11 @@ type PostType = {
 }
 
 interface PostCardProps {
-    post : PostType 
+    post: PostType
 }
 
-                  //desestruturação a interface PostCardProps
-const PostCard: React.FC<PostCardProps> = ({post}) => {
+//desestruturação a interface PostCardProps
+const PostCard: React.FC<PostCardProps> = ({ post }) => {
     return (
         <>
             <div className={style.post}>

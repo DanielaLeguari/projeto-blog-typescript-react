@@ -1,5 +1,6 @@
 .container {
     background: linear-gradient(#1f0b03, rgb(241, 231, 220));
+    font-family: var(--fonte-principal);
 }
 
 .containerEpisodios {
