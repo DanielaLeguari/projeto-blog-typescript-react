@@ -12,7 +12,7 @@ interface PostCardProps {
 }
 
                   //desestruturação a interface PostCardProps
-const PostCard = ({post}: PostCardProps) => {
+const PostCard: React.FC<PostCardProps> = ({post}) => {
     return (
         <>
             <div className={style.post}>

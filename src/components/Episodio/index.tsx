@@ -11,7 +11,7 @@ type EpisodioType = {
 interface EpisodioProps {
     episodio: EpisodioType;
 }
-const Episodio = ({ episodio }: EpisodioProps) => {
+const Episodio: React.FC<EpisodioProps>  = ({ episodio }) => {
     const [favorito, setFavorito] = useState(episodio.favorito);
 
     return (
