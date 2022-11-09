@@ -1,0 +1,17 @@
+.fundo {
+    background-image: url('../../assets/erro.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.texto {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}

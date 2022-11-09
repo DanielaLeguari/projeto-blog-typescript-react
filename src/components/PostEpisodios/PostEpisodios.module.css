@@ -1,0 +1,27 @@
+.containerEpisodios {
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.episodios {
+    color: var(--marrom-escuro);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 18px;
+}
+
+.lista {
+    background-color: rgb(241, 231, 220);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--cor-texto-banner);
+}

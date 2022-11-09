@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "titulo": "Pilot",
+        "texto": "Estreia da série. Antes de Sam e Dean, havia os pais John e Mary. Esta é a história de amor não contada de como eles se conheceram e arriscaram tudo para salvar o mundo.",
+        "favorito": true
+    },
+    {
+        "id": 2,
+        "titulo": "Teach Your Children Well",
+        "texto": "John e Millie não estão na mesma página sobre o interesse dele por caçar. Mary segue uma trilha de seu pai que aponta para o desaparecimento de um garoto adolescente em Topeka.",
+        "favorito": false
+    },
+    {
+        "id": 3,
+        "titulo": "You're Lost Little Girl",
+        "texto": "Quando o vizinho de Mary desaparece misteriosamente, ela e John decidem investigar. John tem um encontro com alguém do passado.",
+        "favorito": false
+    },
+    {
+        "id": 4,
+        "titulo": "Masters of War ",
+        "texto": "Estreia em 10 de novembro.",
+        "favorito": false
+    },
+    {
+        "id": 5,
+        "titulo": "Legend of a Mind ",
+        "texto": "Estreia em 17 de novembro.",
+        "favorito": false
+    },
+    {
+        "id": 6,
+        "titulo": "Em breve...",
+        "texto": "Estreia em 24 de novembro.",
+        "favorito": false
+    },
+    {
+        "id": 7,
+        "titulo": "Em breve...",
+        "texto": "Estreia em 1 de dezembro.",
+        "favorito": false
+    },
+    {
+        "id": 8,
+        "titulo": "Em breve...",
+        "texto": "Estreia em 8 de dezembro.",
+        "favorito": false
+    },
+    {
+        "id": 9,
+        "titulo": "Em breve...",
+        "texto": "Estreia em 15 de dezembro.",
+        "favorito": false
+    },
+    {
+        "id": 10,
+        "titulo": "Em breve...",
+        "texto": "Estreia em 22 de dezembro.",
+        "favorito": false
+    },
+    {
+        "id": 11,
+        "titulo": "Em breve...",
+        "texto": "Estreia em 29 de dezembro.",
+        "favorito": false
+    },
+    {
+        "id": 12,
+        "titulo": "Em breve...",
+        "texto": "Estreia em 5 de janeiro.",
+        "favorito": false
+    },
+    {
+        "id": 13,
+        "titulo": "Em breve...",
+        "texto": "Estreia em 12 de janeiro.",
+        "favorito": false
+    }
+]

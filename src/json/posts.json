@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "titulo": "Mary Campbell",
+        "texto": "Mary Campbell é uma personagem principal em The Winchesters interpretada por Meg Donnelly . “ Mary tem 19 anos e luta contra as forças das trevas desde criança. uma nova equipe."
+        
+    },
+    {
+        "id": 2,
+        "titulo": "John Winchester",
+        "texto": "John Winchester é um personagem principal em The Winchesters interpretado por Drake Rodger . John voltou recentemente do Vietnã. Altruísta e lúcido, ele encontra uma nova missão em casa, onde vestígios do passado de seu pai o levam a uma organização secreta e a uma nova guerra."
+        
+    },
+    {
+        "id": 3,
+        "titulo": "Latika Dar",
+        "texto": "Latika é ferozmente inteligente e mais corajosa do que acredita, uma jovem caçadora em treinamento cujas habilidades de pesquisa e resolução de problemas a ajudam a enfrentar seus medos na luta contra as forças das trevas."
+        
+    },
+    {
+        "id": 4,
+        "titulo": "Carlos Cervantez",
+        "texto": " Carlos é tranquilo e confiante, natural quando se trata de lutar contra demônios e um impulso de positividade para a equipe à medida que enfrenta ameaças mais sérias."
+        
+    },
+    {
+        "id": 5,
+        "titulo": "Ada Monroe",
+        "texto": "Ada é uma dona de uma livraria estudiosa e perspicaz que também se interessa pelos mistérios do ocultismo."
+        
+    },
+    {
+        "id": 6,
+        "titulo": "Millie Winchester",
+        "texto": "Millie é trabalhadora e durona e tem feito a maior parte da paternidade em sua família nos últimos 15 anos. Ela sempre se preocupou que John , um veterano do Vietnã, pudesse seguir o pai e queria impedi-lo de seguir uma vida perigosa."
+        
+    },
+    {
+        "id": 7,
+        "titulo": "Dean Winchester",
+        "texto": "Narrador da história, era um humano e caçador, bem como um membro dos Homens de Letras com seu irmão mais novo Sam."
+        
+    },
+    {
+        "id": 8,
+        "titulo": "Henry Winchester",
+        "texto": "Era um membro do Men of Letters . Ele era o pai de John Winchester e o avô paterno de Dean ,Sam Winchester e Adam Milligan."
+        
+    }
+]
