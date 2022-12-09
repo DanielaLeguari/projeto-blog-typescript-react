@@ -15,7 +15,7 @@
     font-style: italic;
     display: flex;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
 }
 
 .titulo {
@@ -39,8 +39,9 @@
 .bannerImg {
     display: flex;
     justify-content: center;
-    max-height: 340px;
-    max-width: 550px;
+    max-height: 320px;
+    max-width: 400px;
+    margin-left: 1.8rem;
     border-radius: 20px;
     border: 1px solid var(--cor-texto-banner);
 }
