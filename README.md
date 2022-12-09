@@ -1,4 +1,4 @@
-# Homework 2
+# Projeto Blog "The Winchesters"
 
 Refatoração do Projeto Blog utilizando TypeScript.
 
