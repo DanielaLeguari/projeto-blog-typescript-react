@@ -1,0 +1,56 @@
+.fundo{
+    background: linear-gradient(var(--banner-cor-media) , #b9b1af);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.boxForm{
+background: rgb(180, 170, 159);
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ width: 70%;
+ border-radius: 10px;
+ margin: 5rem;
+}
+
+.campos label{
+    font-size: 1.5rem;
+}
+
+.campos input {
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.botaoEnviar{
+    margin-top: 1rem;
+    padding: 0.6875rem 1.5rem;
+    font-size: 1.375rem;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: var(--marrom-escuro);
+    color: var(--cor-texto-banner);
+    border: none;
+}
+
+.botaoEnviar:hover {
+    background-color: var(--cor-texto-banner);
+    color: var(--marrom-escuro);
+}
+
+
+
+
