@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PaginaPadrao from "./components/PaginaPadrao";
 import Error from "./pages/Error";
 import Rodape from "./components/Rodape";
+import { Contato } from "./pages/contato";
 
 
 function AppRoutes() {
@@ -14,11 +15,10 @@ function AppRoutes() {
         <Menu />
         <Routes>
             <Route path="/" element={<PaginaPadrao />}> 
-            <Route path="/" element={<Inicio />} />
-             {/* <Route path="/Opiniao" element={<Opiniao />} />  */}
+            <Route path="/" element={<Inicio />} /> 
           </Route>
+          <Route path="/contato" element={<Contato/>}/>
           <Route path="/SobreSerie" element={<SobreSerie />} />
-
           <Route path="*" element={<Error/>} />
         </Routes>
         <Rodape />
