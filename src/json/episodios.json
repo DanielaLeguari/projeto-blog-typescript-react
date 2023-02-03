@@ -43,38 +43,38 @@
     },
     {
         "id": 8,
-        "titulo": "Hang on to Your Life - 2 de fevereiro",
-        "texto": "Estreia em 8 de dezembro.",
+        "titulo": "Hang on to Your Life",
+        "texto": "Com emoções intensas persistindo após sua missão, Mary e John ficam perto de casa para cuidar de Samuel Campbell. Carlos é forçado a encarar seu passado. Millie ajuda Samuel a se recuperar.",
         "favorito": false
     },
     {
         "id": 9,
         "titulo": "Cast Your Fate to the Wind - 9 de fevereiro",
-        "texto": "Estreia em 15 de dezembro.",
+        "texto": "",
         "favorito": false
     },
     {
         "id": 10,
         "titulo": "Em breve...",
-        "texto": "Estreia em 22 de dezembro.",
+        "texto": "",
         "favorito": false
     },
     {
         "id": 11,
         "titulo": "Em breve...",
-        "texto": "Estreia em 29 de dezembro.",
+        "texto": "",
         "favorito": false
     },
     {
         "id": 12,
         "titulo": "Em breve...",
-        "texto": "Estreia em 5 de janeiro.",
+        "texto": "",
         "favorito": false
     },
     {
         "id": 13,
         "titulo": "Em breve...",
-        "texto": "Estreia em 12 de janeiro.",
+        "texto": "",
         "favorito": false
     }
 ]

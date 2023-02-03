@@ -18,7 +18,7 @@ const Form = () => {
     const onSubmit = (data: FormData) => console.log(data);
 
     return (
-        <>
+        <main className={styles.body}>
             <div className={styles.boxForm}>
                 <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
                     <div className={`${styles.formItem} ${styles.colResponsive}`}>
@@ -26,7 +26,7 @@ const Form = () => {
                         <label className={styles.label}>Nome:</label>
                         <p>{errors.firstName?.message}</p>
                     </div>
-                    <div className={styles.formItem}>
+                    <div className={`${styles.formItem} ${styles.colResponsive}`}>
                         <input className={styles.input} {...register("email")} />
                         <label className={styles.label} >E-mail:</label>
                         <p>{errors.email?.message}</p>
@@ -41,7 +41,7 @@ const Form = () => {
                     </div>
                 </form>
             </div>
-        </>
+        </main>
     );
 }
 export default Form;
