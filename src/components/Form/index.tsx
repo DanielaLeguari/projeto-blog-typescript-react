@@ -20,6 +20,7 @@ const Form = () => {
     return (
         <main className={styles.body}>
             <div className={styles.boxForm}>
+                <h1 className={styles.titulo}>Contato</h1>
                 <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
                     <div className={`${styles.formItem} ${styles.colResponsive}`}>
                         <input className={styles.input} {...register("firstName")} />
