@@ -13,7 +13,7 @@ function Menu() {
                         Sobre a série
                     </MenuLink>
                     <MenuLink to="/contato">
-                        Deixe sua opinião
+                        Opinião
                     </MenuLink>
                 </nav>
             </header>

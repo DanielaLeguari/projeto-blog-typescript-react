@@ -1,0 +1,102 @@
+.input,
+textarea {
+    border: 0;
+    outline: 0;
+    font-size: 1.2em;
+    background: #F6F6F6;
+    color: #797979;
+    position: relative;
+    /* font-family: 'open_sansregular'; */
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.boxForm {
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formItem {
+    position: relative;
+    width: 100%;
+    padding: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+    .formItem.colResponsive {
+        width: 50%;
+    }
+}
+
+.formItem .textArea {
+    height: 10em;
+}
+
+.formItem .input,
+.formItem .textArea {
+    display: block;
+    padding: 1em;
+    width: 100%;
+    transition: all 0.3s;
+    border-bottom: 2px solid #d28e3b;
+}
+
+.formItem .input:focus,
+.formItem .textArea:focus {
+    border-bottom: 2px solid #333333;
+}
+
+.formItem .input:valid+.label,
+.formItem .input:focus+.label,
+.formItem .textArea:valid+.label,
+.formItem .textArea:focus+.label {
+    top: 1em;
+    left: 1em;
+    font-size: 0.9em;
+}
+
+.formItem .input:valid,
+.formItem .textArea:valid {
+    border-bottom: 2px solid #d28e3b;
+}
+
+.formItem .label {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+
+.formItem .button {
+    display: block;
+    width: 120px;
+    padding: 0.8em 0.6em;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: var(--marrom-escuro);
+    color: var(--cor-texto-banner);
+    font-size: 1.2rem;
+    border-radius: 6px;
+}
+
+.formItem .button:active {
+    background-color: #ff9000;
+    color: #ffffff;
+    border: 2px #ff9000 solid;
+}
+
+.button:hover {
+    background-color: var(--cor-texto-banner);
+    color: var(--marrom-escuro);
+}
