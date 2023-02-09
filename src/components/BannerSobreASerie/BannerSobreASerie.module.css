@@ -1,52 +1,107 @@
-.banner {
-    background: linear-gradient(var(--banner-cor-media),var(--banner-cor-escura),var(--banner-cor-media));
-    display: flex;
-    text-align: center;
-    align-items: center;
-    min-height: 350px;
-    font-family: var(--fonte-principal);
-}
 
-.informacoes {
-    display: flex;
-    align-items: center;
-    text-align: center;
+.banner {
+    padding: 3rem 7.5rem 6.25rem;
+    background: linear-gradient(var(--banner-cor-media),var(--banner-cor-escura),var(--banner-cor-clara) );
     color: var(--cor-texto-banner);
-    font-style: italic;
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .titulo {
-    display: flex;
-    justify-content: center;
-    padding: 0.5rem;
-    line-height: 2.5rem;
-    font-weight: bold;
-    font-size: 3rem;
-    width: 30%;
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+    font-style: italic;
 }
 
-.texto {
-    display: flex;
-    padding: 2rem;
-    text-align: justify;
-    width: 30%;
-    font-size: 1.3rem;
+.paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-style: italic;
 }
 
-.bannerImg {
-    display: flex;
-    justify-content: center;
-    max-height: 320px;
-    max-width: 400px;
-    margin-left: 1.8rem;
+.imagens {
+    position: relative;
+    height: 400px;
+}
+
+.imagem:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imagens>.imagem {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 28vw;
+    height: 38vh;
     border-radius: 20px;
     border: 1px solid var(--cor-texto-banner);
 }
 
-.bannerImg:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+@media (max-width: 1100px) {
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+
+    .imagens {
+        height: 338px;
+    }
+
+    .imagens>.minhaFoto {
+        width: 25vw;
+    }
+
+    .imagens>.circuloColorido {
+        right: 10vw;
+        width: 35vw;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .imagens {
+        height: 320px;
+        position: relative;
+    }
+
+    .imagens>.imagem,
+    .imagens>.circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 250px;
+    } 
+    
 }

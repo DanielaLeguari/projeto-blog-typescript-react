@@ -1,7 +1,9 @@
-.container {
+
+ .container {
     background: linear-gradient(#1f0b03, rgb(241, 231, 220));
     font-family: var(--fonte-principal);
-}
+   
+} 
 
 .containerEpisodios {
     margin: 0 auto;
@@ -9,6 +11,7 @@
 }
 
 .episodios {
+    display: flex;
     color: var(--cor-texto-banner);
     font-style: italic;
     font-weight: bold;
