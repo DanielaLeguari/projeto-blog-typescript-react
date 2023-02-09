@@ -7,10 +7,10 @@ function Menu() {
             <header>
                 <nav className={style.navegacao}>
                     <MenuLink to="/">
-                        Os Winchesters
+                        Início
                     </MenuLink>
                     <MenuLink to="/SobreSerie">
-                        Sobre a série
+                        Sobre
                     </MenuLink>
                     <MenuLink to="/contato">
                         Opinião

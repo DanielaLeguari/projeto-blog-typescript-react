@@ -8,7 +8,7 @@
 }
 
 .link {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     color: var(--cor-fonte-principal);
 }
@@ -20,5 +20,27 @@
 @media (max-width: 744px) {
     .navegacao {
         height: 72px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navegacao {
+        height: 80px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        column-gap: 1rem;
+        background: linear-gradient(var(--banner-cor-escura),var(--banner-cor-media)) ;
+        padding: 0.4rem;
+    }
+    
+    .link {
+        font-size: 0.8rem;
+        /* line-height: 1rem; */
+        color: var(--cor-fonte-principal);
+    }
+    
+    .linkSublinhado {
+        text-decoration: underline;
     }
 }
