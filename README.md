@@ -1,13 +1,16 @@
 # Projeto Blog "The Winchesters"
 
+<p align="center">
+<img width="600" src="./imagens/blog-winchesters.gif">
+<p>
+
 - Obs. Este projeto encontra-se em aprimoramento
 
 ## Tecnologias utilizadas
 
  - TypeScript;
- - React.
-
-Refatoração do Projeto Blog utilizando TypeScript.
+ - React;
+ - Responsividade.
 
 ## Comando para iniciar o projeto
 
