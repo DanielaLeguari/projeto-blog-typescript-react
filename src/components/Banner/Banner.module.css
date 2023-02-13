@@ -15,11 +15,12 @@
 }
 
 .paragrafo {
+    display: flex;
+    justify-content: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 2rem;
-    margin-right: 2rem;
     font-style: italic;
 }
 
@@ -77,14 +78,6 @@
         display: block;
     }
 
-    .titulo {
-        margin-bottom: 2rem;
-    }
-
-    .paragrafo {
-        margin-bottom: 2rem;
-    }
-
     .imagens {
         height: 307px;
     }
@@ -108,40 +101,19 @@
 }
 
 @media (max-width: 480px) {
-    .banner {
-        padding: 2rem 1rem;
-        display: block;
-    }
-
+   
     .titulo {
         font-size: 3rem;
         text-align: center;
     }
 
     .paragrafo {
-        margin-bottom: 2rem;
         text-align: center;
-    }
-
-    .imagens {
-        height: 307px;
     }
 
     .imagens>.imagem,
     .imagens>.circuloColorido {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
         min-width: 300px;
     }
 
-    .imagens>.minhaFoto {
-        width: 170px;
-        transform: translate(5rem, 0px);
-    }
-
-    .imagens>.circuloColorido {
-        width: 240px;
-        transform: translate(-1.5rem, 0px);
-    }
 }

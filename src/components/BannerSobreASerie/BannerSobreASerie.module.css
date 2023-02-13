@@ -1,7 +1,6 @@
-
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background: linear-gradient(var(--banner-cor-media),var(--banner-cor-escura),var(--banner-cor-clara) );
+    background: linear-gradient(var(--banner-cor-media), var(--banner-cor-escura), var(--banner-cor-clara));
     color: var(--cor-texto-banner);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,11 +15,11 @@
 }
 
 .paragrafo {
+    display: flex;
+    justify-content: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     line-height: 2rem;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
     font-style: italic;
 }
 
@@ -72,8 +71,6 @@
     }
 }
 
-
-
 @media (max-width: 480px) {
     .banner {
         padding: 2rem 1rem;
@@ -81,19 +78,17 @@
     }
 
     .titulo {
-        margin-bottom: 2rem;
         font-size: 3rem;
         text-align: center;
     }
 
     .paragrafo {
-        margin-bottom: 2rem;
+        display: flex;
         text-align: center;
     }
 
     .imagens {
         height: 320px;
-        position: relative;
     }
 
     .imagens>.imagem,
@@ -102,6 +97,6 @@
         right: 0;
         margin: 0 auto;
         min-width: 300px;
-    } 
-    
+    }
+
 }
