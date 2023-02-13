@@ -23,7 +23,7 @@
 ### Home
 
 
-![](./imagens/home.png)
+![](./imagens/inicio.png)
 
 
 ### Sobre a Série
