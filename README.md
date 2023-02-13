@@ -18,7 +18,6 @@
 
 # Confira a aplicação acessando o link da Vercel no canto superior direito
 
-
 ## Páginas
 
 ### Home
