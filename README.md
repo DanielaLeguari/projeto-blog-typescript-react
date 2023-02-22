@@ -20,7 +20,7 @@
 
 <hr>
 
-<a href='https://github.com/DanielaLeguari/api-nodejs-projetoblog'>Clique para acessa o repositório</a>
+<a href='https://github.com/DanielaLeguari/api-nodejs-projetoblog'>Clique para acessar o repositório da API</a>
 
 <hr>
 
