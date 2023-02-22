@@ -1,15 +1,20 @@
 import Inicio from "./pages/Inicio";
 import SobreSerie from "./pages/SobreASerie";
-import Menu from "./components/Menu";
-import PaginaPadrao from "./components/PaginaPadrao";
+
 import Error from "./pages/Error";
-import Rodape from "./components/Rodape";
 import Contato from "./pages/contato";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "react-toastify/dist/ReactToastify.css";
+
+import Rodape from "./components/Rodape";
+import PaginaPadrao from "./components/PaginaPadrao";
+
+import Menu from "./components/Menu";
+
 import { ToastContainer } from 'react-toastify';
 import { EpisodiosProvider } from "./context/EpisodiosContext";
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import "react-toastify/dist/ReactToastify.css";
 
 function AppRoutes() {
   return (

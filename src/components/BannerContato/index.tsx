@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './BannerContato.module.css';
 import imagem3 from '../../assets/bannerContato.png';
 

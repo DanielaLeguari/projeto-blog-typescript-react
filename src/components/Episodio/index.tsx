@@ -1,6 +1,7 @@
-import styles from './Episodio.module.css';
 import { useState } from 'react';
 import { TEpisodio } from '../../utils/type';
+
+import styles from './Episodio.module.css';
 
 interface EpisodioProps {
     episodio: TEpisodio;

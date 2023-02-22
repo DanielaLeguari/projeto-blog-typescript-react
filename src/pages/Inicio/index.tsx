@@ -1,6 +1,7 @@
-import style from './Inicio.module.css';
 import posts from '../../json/posts.json';
 import PostCard from '../../components/PostCard';
+
+import style from './Inicio.module.css';
 
 const Inicio = () => {
     return (
