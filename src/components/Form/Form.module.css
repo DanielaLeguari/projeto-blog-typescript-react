@@ -1,5 +1,5 @@
 .body {
-    background: linear-gradient(var(--banner-cor-clara), #b9b1af);
+    background: linear-gradient(var(--banner-cor-clara), var(--banner-cor-escura));
     padding: 2rem;
 }
 
