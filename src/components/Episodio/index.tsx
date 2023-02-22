@@ -1,24 +1,19 @@
 import styles from './Episodio.module.css';
 import { useState } from 'react';
-
-type EpisodioType = {
-    id: number,
-    titulo: string,
-    texto: string,
-    favorito: boolean
-}
+import { TEpisodio } from '../../utils/type';
 
 interface EpisodioProps {
-    episodio: EpisodioType;
+    episodio: TEpisodio;
 }
-const Episodio: React.FC<EpisodioProps>  = ({ episodio }) => {
+const Episodio: React.FC<EpisodioProps> = ({ episodio }) => {
+
     const [favorito, setFavorito] = useState(episodio.favorito);
 
     return (
         <>
             <main className={styles.containerEpisodio}>
                 <div>
-                    <img className={styles.poster} src={`assets/episodios/${episodio.id}/img.png`} alt="episodios"></img>
+                    <img className={styles.poster} src={`assets/episodios/${episodio.numero}/img.png`} alt="episodios"></img>
                 </div>
                 <div className={styles.detalhes}>
                     <div className={styles.episodio} >Episódio {episodio.id}</div>

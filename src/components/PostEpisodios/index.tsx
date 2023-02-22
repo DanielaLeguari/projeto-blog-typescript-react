@@ -1,8 +1,13 @@
 import style from './PostEpisodios.module.css';
-import episodios from '../../json/episodios.json';
 import Episodio from '../../components/Episodio';
+import { useContext, useEffect } from 'react';
+import { EpisodiosContext } from '../../context/EpisodiosContext';
 
 const PostEpisodios = () => {
+    const { episodios, listarEpisodios } = useContext(EpisodiosContext);
+    useEffect(() => {
+        listarEpisodios();
+    }, []);
 
     return (
         <main className={style.container}>
