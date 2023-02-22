@@ -1,5 +1,5 @@
 .container {
-    background: linear-gradient(var(--banner-cor-clara), #1f0b03, rgb(241, 231, 220));
+    background: linear-gradient(var(--banner-cor-clara), #1f0b03, #0e0401);
     font-family: var(--fonte-principal);
     min-height: 200px;
 }

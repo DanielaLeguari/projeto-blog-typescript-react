@@ -5,8 +5,6 @@ import Error from "./pages/Error";
 import Contato from "./pages/contato";
 
 import Rodape from "./components/Rodape";
-import PaginaPadrao from "./components/PaginaPadrao";
-
 import Menu from "./components/Menu";
 
 import { ToastContainer } from 'react-toastify';
@@ -24,9 +22,7 @@ function AppRoutes() {
         <Menu />
         <EpisodiosProvider>
           <Routes>
-            <Route path="/" element={<PaginaPadrao />}>
-              <Route path="/" element={<Inicio />} />
-            </Route>
+            <Route path="/" element={<Inicio />} />
             <Route path="/contato" element={<Contato />} />
             <Route path="/SobreSerie" element={<SobreSerie />} />
             <Route path="*" element={<Error />} />

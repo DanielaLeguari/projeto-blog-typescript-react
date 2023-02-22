@@ -6,23 +6,6 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.titulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 4rem;
-    margin-top: 4.875rem;
-    margin-bottom: 2rem;
-    font-style: italic;
-}
-
-.paragrafo {
-    display: flex;
-    justify-content: center;
-    font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-style: italic;
-}
-
 .imagens {
     position: relative;
     height: 400px;
@@ -48,15 +31,6 @@
         padding: 3.5rem 1.5rem;
     }
 
-    .titulo {
-        margin-top: 0;
-        margin-bottom: 1.5rem;
-    }
-
-    .paragrafo {
-        margin-bottom: 1.5rem;
-    }
-
     .imagens {
         height: 338px;
     }
@@ -75,16 +49,6 @@
     .banner {
         padding: 2rem 1rem;
         display: block;
-    }
-
-    .titulo {
-        font-size: 3rem;
-        text-align: center;
-    }
-
-    .paragrafo {
-        display: flex;
-        text-align: center;
     }
 
     .imagens {

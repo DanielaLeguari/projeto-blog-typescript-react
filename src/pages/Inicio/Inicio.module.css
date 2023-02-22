@@ -1,5 +1,5 @@
 .fundo {
-    background: linear-gradient(#532c1d , #b9b1af);
+    background: linear-gradient( var(--banner-cor-clara),var(--banner-cor-escura));
 }
 
 .posts {
