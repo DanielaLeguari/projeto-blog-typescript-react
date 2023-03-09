@@ -17,7 +17,7 @@ const Episodio: React.FC<EpisodioProps> = ({ episodio }) => {
                     <img className={styles.poster} src={`assets/episodios/${episodio.numero}/img.png`} alt="episodios"></img>
                 </div>
                 <div className={styles.detalhes}>
-                    <div className={styles.episodio} >Episódio {episodio.id}</div>
+                    <div className={styles.episodio} >Episódio {episodio.numero}</div>
                     <div className={styles.titulo}>{episodio.titulo}</div>
                     <div className={styles.descricao}>{episodio.texto}</div>
                 </div>
