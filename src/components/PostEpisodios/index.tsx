@@ -8,7 +8,7 @@ const PostEpisodios = () => {
     const { episodios, listarEpisodios } = useContext(EpisodiosContext);
     useEffect(() => {
         listarEpisodios();
-    }, []);
+    }, [listarEpisodios]);
 
     return (
         <main className={style.container}>
