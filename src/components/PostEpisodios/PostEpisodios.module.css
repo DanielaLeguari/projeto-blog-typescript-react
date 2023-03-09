@@ -1,7 +1,7 @@
 .container {
     background: linear-gradient(var(--banner-cor-clara), #1f0b03, #0e0401);
     font-family: var(--fonte-principal);
-    min-height: 200px;
+    min-height: 400px;
 }
 
 .containerEpisodios {

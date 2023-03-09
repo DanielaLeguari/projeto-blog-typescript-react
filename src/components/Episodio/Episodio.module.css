@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.containerEpisodio:hover{
+    opacity:0.9;
+}
+
 .detalhes {
     width: 90%;
     padding: 0.8rem;
