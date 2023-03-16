@@ -1,14 +1,19 @@
 import React from 'react';
+import { TBannerTexto } from '../../utils/type';
 import styles from './TextoBannerHome.module.css';
 
-const TextoBannerHome = () => {
+interface BannerProps {
+  banner: TBannerTexto
+}
+
+const TextoBannerHome : React.FC<BannerProps> = ({banner}) => {
     return (
         <>
             <h1 className={styles.titulo}>
-                Os Winchesters
+                {banner.titulo}
             </h1>
             <p className={styles.paragrafo}>
-                A Série "The Winchesters" é um spin-off de Supernatural. Sua estreia foi em Outubro de 2022.
+                {banner.paragrafo}
             </p>
         </>
     );

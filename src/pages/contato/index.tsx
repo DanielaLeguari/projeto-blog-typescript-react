@@ -1,12 +1,13 @@
+import BannerPrincipal from '../../components/BannerPrincipal';
+import Form from '../../components/Form';
+import imagem3 from '../../assets/bannerContato.png';
 
-import BannerContato from '../../components/BannerContato';
-import Form  from '../../components/Form';
 
 const Contato = () => {
   return (
     <main>
-        <BannerContato/>
-        <Form/> 
+      <BannerPrincipal banner={{ titulo: 'Os Winchesters', paragrafo: ' Se você é fã de "Supernatural" e está assistindo "Os Whinchesters", deixe sua opinião sobre a série.', imagem: imagem3 }} />
+      <Form />
     </main>
   );
 }

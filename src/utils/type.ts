@@ -12,3 +12,18 @@ export type TEpisodioContext = {
     listarEpisodios: () => Promise<void>,
     episodios: TEpisodio[]
 }
+
+export type TBannerTexto = {
+    titulo: string,
+    paragrafo: string
+}
+
+export type TBannerImagem = {
+    imagem: string
+}
+
+export type TBanner = {
+    titulo: string,
+    paragrafo: string,
+    imagem: string
+}

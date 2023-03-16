@@ -1,23 +1,14 @@
-import posts from '../../json/posts.json';
-import PostCard from '../../components/PostCard';
-
-import style from './Inicio.module.css';
 import BannerPrincipal from '../../components/BannerPrincipal';
+
+import imagem from '../../assets/imagem.png';
+import Cards from '../../components/Cards';
 
 const Inicio = () => {
     return (
-        <>
-        <BannerPrincipal/> 
-        <section className={style.fundo}> 
-            <ul className={style.posts}>
-                {posts.map((post) => (
-                    <li key={post.id}>
-                        <PostCard post={post} />
-                    </li>
-                ))}
-            </ul>
-        </section>
-        </>
+        <main>
+            <BannerPrincipal banner={{ titulo: 'Os Winchesters', paragrafo: '"Os Winchesters" gira em torno dos pais de Dean e Sam Winchester, John e Mary, e é descrito como "a história de amor épica e não contada de como John conheceu Mary e como eles colocaram tudo em risco não apenas para salvar seu amor, mas o mundo inteiro, será contado a partir da perspectiva de seu filho mais velho, Dean com Ackles narrando.', imagem: imagem }} />
+            <Cards/>
+        </main>
     );
 }
 

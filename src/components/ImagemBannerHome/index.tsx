@@ -1,11 +1,14 @@
 import styles from './ImagemBannerHome.module.css';
-import imagem from '../../assets/imagem.png';
+import { TBannerImagem } from '../../utils/type';
+interface BannerImagemProps {
+  banner: TBannerImagem
+}
 
-const ImagemBannerHome = () => {
+const ImagemBannerHome: React.FC<BannerImagemProps> = ({banner}) => {
   return (
     <>
       <div className={styles.imagens}>
-        <img className={styles.imagem} src={imagem} alt="Os Winchesters" />
+         <img className={styles.imagem} src={banner.imagem} alt="Os Winchesters" />
         </div>
     </>
   );
