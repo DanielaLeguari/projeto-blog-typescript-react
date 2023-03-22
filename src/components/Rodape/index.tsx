@@ -4,9 +4,9 @@ const Rodape = () => {
 
     return (
         <>
-       <footer className={styles.rodape}>
-        <h4>By Daniela Leguari</h4>
-       </footer>
+            <footer className={styles.rodape}>
+                <h4>By Daniela Leguari</h4>
+            </footer>
         </>
     )
 }

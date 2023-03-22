@@ -33,7 +33,7 @@ const Form = () => {
                         <label className={styles.label} >E-mail:</label>
                         <p>{errors.email?.message}</p>
                     </div>
-                    <div className={styles.formItem}> 
+                    <div className={styles.formItem}>
                         <textarea className={styles.textArea} {...register("message")} />
                         <label className={styles.label}>Mensagem:</label>
                         <p>{errors.message?.message}</p>

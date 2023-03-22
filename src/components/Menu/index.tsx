@@ -1,4 +1,5 @@
 import MenuLink from '../../pages/MenuLink';
+
 import style from './Menu.module.css';
 
 function Menu() {
