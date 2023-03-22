@@ -1,11 +1,11 @@
-import styles from './ImagemBannerHome.module.css';
+import styles from './ImagemBanner.module.css';
 
 import { TBannerImagem } from '../../utils/type';
 interface BannerImagemProps {
   banner: TBannerImagem
 }
 
-const ImagemBannerHome: React.FC<BannerImagemProps> = ({ banner }) => {
+const ImagemBanner: React.FC<BannerImagemProps> = ({ banner }) => {
   return (
     <>
       <div className={styles.imagens}>
@@ -15,4 +15,4 @@ const ImagemBannerHome: React.FC<BannerImagemProps> = ({ banner }) => {
   );
 }
 
-export default ImagemBannerHome;
+export default ImagemBanner;

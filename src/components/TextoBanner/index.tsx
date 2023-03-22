@@ -2,13 +2,13 @@ import React from 'react';
 
 import { TBannerTexto } from '../../utils/type';
 
-import styles from './TextoBannerHome.module.css';
+import styles from './TextoBanner.module.css';
 
 interface BannerProps {
     banner: TBannerTexto
 }
 
-const TextoBannerHome: React.FC<BannerProps> = ({ banner }) => {
+const TextoBanner: React.FC<BannerProps> = ({ banner }) => {
     return (
         <>
             <h1 className={styles.titulo}>
@@ -21,4 +21,4 @@ const TextoBannerHome: React.FC<BannerProps> = ({ banner }) => {
     );
 }
 
-export default TextoBannerHome;
+export default TextoBanner;

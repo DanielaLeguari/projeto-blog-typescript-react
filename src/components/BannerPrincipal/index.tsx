@@ -1,5 +1,5 @@
-import ImagemBannerHome from '../ImagemBannerHome';
-import TextoBannerHome from '../TextoBannerHome';
+import ImagemBanner from '../ImagemBanner';
+import TextoBanner from '../TextoBanner';
 
 import styles from './BannerPrincipal.module.css';
 
@@ -14,10 +14,10 @@ const BannerPrincipal: React.FC<BannerProps> = ({ banner }) => {
         <>
             <section className={styles.banner}>
                 <article className={styles.apresentacao}>
-                    <TextoBannerHome banner={{ ...banner }} />
+                    <TextoBanner banner={{ ...banner }} />
                 </article>
                 <article>
-                    <ImagemBannerHome banner={{ ...banner }} />
+                    <ImagemBanner banner={{ ...banner }} />
                 </article>
             </section>
         </>
